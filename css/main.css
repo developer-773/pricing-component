@@ -33,7 +33,8 @@ body{
 section{
     background-image: url(../images/group-bottom.svg) , url(../images/group-top.svg);
     background-repeat: no-repeat;
-    background-position: calc(50% - 700px) calc(50% + 400px),calc(50% - 400px) calc(50% + 600px);
+    /* background-position: left-bottom, right-top; */
+    background-position: calc(50% + 675px) calc(50% - 409px),calc(50% - 742px) calc(50% + 400px);
     
     
 }
