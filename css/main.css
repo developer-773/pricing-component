@@ -14,7 +14,7 @@ body{
 }
 
 .container{
-    max-width: 1300px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -30,9 +30,11 @@ body{
 }
 
 section{
-    max-width: auto;
-
-    background-color: #F2F2F2;
+    background-image: url(../images/group-bottom.svg) , url(../images/group-top.svg);
+    background-repeat: no-repeat;
+    background-position: calc(50% - 700px) calc(50% + 400px),calc(50% - 400px) calc(50% + 600px);
+    
+    
 }
 
 
@@ -63,10 +65,7 @@ section{
     margin: 0;
 }
 
-ul{
-    padding: 0;
-    list-style: none;
-}
+
 
 a{
     text-decoration: none;
@@ -74,13 +73,17 @@ a{
 
 .component-list{
     display: flex;
+    /* justify-content: center;
+    align-items: center; */
     margin: 0;
+    padding: 0;
     padding-bottom: 87px;
+    list-style: none;
 }
 
 .component-item{
-    padding: 41px;
-    width: 350px;
+    padding: 31px;
+    /* width: 350px; */
     background-color: #FFFFFF;
     box-shadow: 0px 20px 40px rgba(212, 210, 244, 0.5);
     border-radius: 10px 0px 0px 10px;
@@ -91,6 +94,7 @@ a{
 }
 
 .item-txt{
+    /* display: inline-block; */
     font-weight: var(--main-font-weight);
     font-size: 18px;
     line-height: 28px;
@@ -110,8 +114,7 @@ a{
 }
 
 .txt-strong{
-    padding-right: 71px;
-    padding-left: 71px;
+
     font-weight: var(--main-font-weight);
     font-size: 72px;
     line-height: 71px;
@@ -125,6 +128,11 @@ a{
 
 .color{
     color: #fff;
+}
+
+.specification-list{
+    padding: 0;
+    list-style: none;
 }
 
 .specification-txt{
@@ -150,7 +158,7 @@ a{
 
 .btn{
 
-    padding: 14px 114px;
+    padding: 14px 65px;
     background-color: #696EDD;
     border-radius: 6px;
     font-weight: var(--main-font-weight);
@@ -170,6 +178,7 @@ a{
 
 
 .center-item{
+
     padding: 54px 32px;
     background-image: linear-gradient(135deg, #A2A7F0 0%, #696EDD 100%);
     border-radius: 10px;
@@ -185,7 +194,7 @@ a{
 }
 
 .btn-center{
-    padding: 14px 114px;
+    padding: 14px 65px;
     border-radius: 6px;
     font-weight: var(--main-font-weight);
     font-size: 13px;
