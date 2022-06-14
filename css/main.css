@@ -29,6 +29,7 @@ body{
     url('../fonts/montserrat-v24-latin-700.woff') format('woff');
 }
 
+
 section{
     background-image: url(../images/group-bottom.svg) , url(../images/group-top.svg);
     background-repeat: no-repeat;
@@ -83,7 +84,6 @@ a{
 
 .component-item{
     padding: 31px;
-    /* width: 350px; */
     background-color: #FFFFFF;
     box-shadow: 0px 20px 40px rgba(212, 210, 244, 0.5);
     border-radius: 10px 0px 0px 10px;
